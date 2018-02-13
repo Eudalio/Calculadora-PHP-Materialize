@@ -45,11 +45,11 @@
                         <div class="row">
                             <form action="" method="post">
                                 <div class="input-field col s6">
-                                    <input type="number" id="n1" name="n1">
+                                    <input type="number" step="0.00001" id="n1" name="n1">
                                     <label for="n1">Operando 1</label>
                                 </div>
                                 <div class="input-field col s6">
-                                    <input type="number" id="n2" name="n2">
+                                    <input type="number" step="0.00001" id="n2" name="n2">
                                     <label for="n2">Operando 2</label>
                                 </div>
                                 <div class="input-field col s12">
@@ -62,7 +62,7 @@
                         </div>
                     </div>
                     <div class="card-action">
-                    <a href="#">Resultado: <?php echo $res; ?> </a>
+                    <a href="#" step="0.01">Resultado: <?php echo $res; ?> </a>
                     </div>
                 </div>
                 </div>
